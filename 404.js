@@ -13,7 +13,7 @@ $.each(layers, function(index, layer){
     invert: $(layer).data('invert') || false
   })
 })
-
+		
 $.plax.enable()
 
 $(document).ready(function() {
